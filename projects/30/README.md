@@ -31,6 +31,7 @@ Training Platform
 
 Alessandro Riccombeni, riccomba@amazon.com
 Co-lead: Torsten Haferlach, torsten.haferlach@mll.com
+Charlotte Fraboulet, charlotte.fraboulet@owkin.com
 
 ## Expected outcomes
 
