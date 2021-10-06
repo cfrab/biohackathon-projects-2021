@@ -1,18 +1,17 @@
-# Project 30: Federated Learning and Machine Learning to power integrated diagnostics of leukemias and lymphomas
+# Project 30: Federated Learning and Machine Learning to power integrated diagnostics of breast cancer 
 
 ## Abstract
 
-The correct and comprehensive diagnosis of leukemias and lymphomas is a basic prerequisite for choosing the best possible therapy. The Torsten Haferlach Leukemia Diagnostics Foundation is involved in leukemia research and to improve the infrastructure, the foundation also supports the establishment of institutions dealing with routine diagnosis of leukemias and lymphomas.
 
-For decades flow cytometry data was interpreted manually through a process called gating. This was time consuming, based on the experience of the user and potentially error prone. Lately AI methods were applied to interpret RAW Flow cytometry data, involving the generation of images, which are fed into Pattern recognition algorithms, which works fine - but not perfect! We theorize, that using the raw data (aligned in value matrix) rather than converting it into an image prior inserting into an AI algorithm could be faster and more sensitive.
-The goal of this project is to take raw flow cytometry data and predict the diagnostics results without image conversion.
+Participants will be challenged to create the most accurate possible machine learning solution to diagnose breast cancer, combining the provided dataset, including histopathology data. 
 
-Participants in this challenge will be challenged to create the most accurate possible ML solution to diagnose leukemia and lymphomas, combining the provided dataset, including genomic data, phenotypic information and imaging data.
-Owkin will provide its solution for federated learning, running on AWS
+As we also want to illustrate the application of Federated Learning in healthcare, the hackathon will rely on the FL software developed by Owkin, Owkin Connect, running on AWS. We will use publicly available histo-genomic datasets, that we will prepare to simulate a Federated Learning setup. Through the HealthChain consortium, Owkin already showed the impact of Federated Learning to accelerate medical research. We established that ML models can be trained successfully with Owkin Connect on histology images, siloed at different clinical centers, to predict treatment responses in breast cancer.
+
 
 ## Topics
 
 Cancer
+Breast Cancer
 Federated Human Data
 industry
 Machine learning
@@ -29,19 +28,19 @@ Training Platform
 
 ### Lead(s)
 
+Charlotte Fraboulet, charlotte.fraboulet@owkin.com
 Alessandro Riccombeni, riccomba@amazon.com
-Co-lead: Torsten Haferlach, torsten.haferlach@mll.com
-Co-lead: Charlotte Fraboulet, charlotte.fraboulet@owkin.com
+
 
 ## Expected outcomes
 
-1) Application of a new machine learning-based solution for classification and prognosis of leukemias and lymphomas.
+1) Application of a new machine learning-based solution for classification and prognosis of breast cancer
 2) Benchmarking and validation of a ML solution based on a curated dataset.
 3) Learning and training in using AWS cloud services for compute, machine learning and high performance compute.
 
 ## Expected audience
 
-Subject matter experts in oncology (leukemia), imaging and genomics.
+Subject matter experts in oncology (breast cancer), digital pathology
 
 Software engineers or bioinformaticians familiar with using AWS (training materials can be recommended if needed, before the event) and services for HPC and Machine Learning.
 
